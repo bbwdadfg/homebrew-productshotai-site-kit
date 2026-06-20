@@ -1,18 +1,27 @@
-# Bbwdadfg Productshotai-site-kit
+# ProductShot AI Site Kit Homebrew Tap
 
 ## How do I install these formulae?
 
-`brew install bbwdadfg/productshotai-site-kit/<formula>`
+```bash
+brew tap bbwdadfg/productshotai-site-kit
+brew install productshotai-site-kit
+```
 
-Or `brew tap bbwdadfg/productshotai-site-kit` and then `brew install <formula>`.
+This tap installs a small CLI for printing public [ProductShot AI](https://productshotai.app) URLs and metadata.
 
 Or, in a `brew bundle` `Brewfile`:
 
 ```ruby
 tap "bbwdadfg/productshotai-site-kit"
-brew "<formula>"
+brew "productshotai-site-kit"
 ```
 
 ## Documentation
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```bash
+productshotai-site-kit home
+productshotai-site-kit workbench
+productshotai-site-kit metadata
+```
+
+See [Homebrew's documentation](https://docs.brew.sh) for tap usage.
