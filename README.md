@@ -4,6 +4,7 @@
 
 ```bash
 brew tap bbwdadfg/productshotai-site-kit
+brew trust --formula bbwdadfg/productshotai-site-kit/productshotai-site-kit
 brew install productshotai-site-kit
 ```
 
